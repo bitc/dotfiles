@@ -50,3 +50,7 @@ xterm*|rxvt*)
     ;;
 esac
 
+# Reset the cursor position, so that any characters that were typed by the user
+# before the prompt showed up will be overwritten
+echo -n -e '\033[7;1H'
+
