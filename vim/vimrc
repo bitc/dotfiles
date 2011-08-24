@@ -1,0 +1,39 @@
+set nocompatible
+
+syntax on
+
+" If using a dark background within the editing area and syntax highlighting
+" turn on this option as well
+set background=dark
+
+" Uncomment the following to have Vim load indentation rules and plugins
+" according to the detected filetype.
+if has("autocmd")
+  filetype plugin indent on
+endif
+
+" Show (partial) command in status line.
+set showcmd
+
+" Show matching brackets.
+set showmatch
+
+" Incremental search
+set incsearch
+
+" Highlight search matches
+set hlsearch
+
+" Automatically save before commands like :next and :make
+set autowrite
+
+" Highlight current line, only in gui (it's ugly in terminal)
+if has("gui_running")
+  set cursorline
+endif
+
+colorscheme koehler
+
+" Disable Toolbar
+set guioptions-=T
+
