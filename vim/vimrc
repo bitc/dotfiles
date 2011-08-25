@@ -15,6 +15,10 @@ endif
 " Right mouse button pops up a menu
 set mousemodel=popup
 
+" Command-line completion
+set wildmenu
+set wildmode=longest:list
+
 " Show (partial) command in status line.
 set showcmd
 
