@@ -12,6 +12,9 @@ if has("autocmd")
   filetype plugin indent on
 endif
 
+" Right mouse button pops up a menu
+set mousemodel=popup
+
 " Show (partial) command in status line.
 set showcmd
 
