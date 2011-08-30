@@ -55,3 +55,7 @@ set guioptions-=T
 
 " Python
 au FileType python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
+
+" ActionScript
+" Use java syntax, works well enough
+au Bufread,BufNewFile *.as set filetype=java
