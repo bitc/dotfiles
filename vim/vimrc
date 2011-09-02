@@ -55,5 +55,5 @@ au FileType python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 au FileType vim setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
 " ActionScript
-" Use java syntax, works well enough
-au Bufread,BufNewFile *.as set filetype=java
+au Bufread,BufNewFile *.as set filetype=actionscript
+au FileType actionscript setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4 cindent
