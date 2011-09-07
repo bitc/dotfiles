@@ -43,11 +43,6 @@ set laststatus=2
 " Automatically save before commands like :next and :make
 set autowrite
 
-" Highlight current line, only in gui (it's ugly in terminal)
-if has("gui_running")
-  set cursorline
-endif
-
 colorscheme koehler
 
 " Disable Toolbar
