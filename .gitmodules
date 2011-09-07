@@ -13,3 +13,6 @@
 [submodule "vim/bundle/unimpaired"]
 	path = vim/bundle/unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
+[submodule "vim/bundle/bad-whitespace"]
+	path = vim/bundle/bad-whitespace
+	url = git://github.com/bitc/vim-bad-whitespace.git
