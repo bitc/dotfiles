@@ -9,6 +9,9 @@ syntax on
 " turn on this option as well
 set background=dark
 
+let moria_style='black'
+colorscheme moria
+
 " Uncomment the following to have Vim load indentation rules and plugins
 " according to the detected filetype.
 if has("autocmd")
@@ -43,7 +46,6 @@ set laststatus=2
 " Automatically save before commands like :next and :make
 set autowrite
 
-colorscheme koehler
 
 " Automatically open, but do not go to (if there are errors) the quickfix /
 " location list window, or close it when is has become empty.
