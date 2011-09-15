@@ -5,6 +5,9 @@ set nocompatible
 
 syntax on
 
+" Don't show the intro message when starting Vim
+set shortmess+=I
+
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
 set background=dark
