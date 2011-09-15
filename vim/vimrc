@@ -61,6 +61,11 @@ autocmd QuickFixCmdPost    l* nested lwindow
 " Mapping for running a silent make
 :map <Leader>j :silent make<CR>
 
+" Allow gui to be full height of screen. This also prevents the gui from
+" acting buggy and not sizing itself correctly when using tiling window
+" managers such as xmonad.
+set guiheadroom=0
+
 " Disable Toolbar
 set guioptions-=T
 
