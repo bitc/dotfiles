@@ -28,6 +28,10 @@ set mousemodel=popup
 set wildmenu
 set wildmode=longest:list
 
+" I rarely want to edit backup files. If I must then I can manually type the
+" full name without wild completion
+set wildignore+=*~
+
 " Show (partial) command in status line.
 set showcmd
 
@@ -71,6 +75,8 @@ set guioptions-=T
 
 " Python
 au FileType python setl et ts=4 sw=4 sts=4
+set wildignore+=*.pyc
+set wildignore+=*.pyo
 
 " Vim
 au FileType vim setl et ts=2 sw=2 sts=2
@@ -82,3 +88,6 @@ au FileType actionscript setl et ts=4 sw=4 sts=4 cindent
 " Haskell .hsc file
 au FileType haskell setl et ts=4 sw=4 sts=4 autoindent smartindent
 au Bufread,BufNewFile *.hsc set filetype=haskell
+set wildignore+=*.o
+set wildignore+=*.hi
+set wildignore+=*.chi
