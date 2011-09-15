@@ -1,4 +1,17 @@
-install: install-bash install-vim install-xmonad install-xmobar install-gtk
+all:
+	@echo "# To install everything:"
+	@echo "make install"
+	@echo "# Individual targets:"
+	@echo $(TARGETS)
+
+TARGETS = \
+	install-bash \
+	install-vim \
+	install-xmonad \
+	install-xmobar \
+	install-gtk
+
+install: $(TARGETS)
 
 install-bash:
 	rm -f ~/.bashrc ~/.bash_aliases
