@@ -9,7 +9,8 @@ TARGETS = \
 	install-vim \
 	install-xmonad \
 	install-xmobar \
-	install-gtk
+	install-gtk \
+	install-git
 
 install: $(TARGETS)
 
@@ -35,3 +36,8 @@ install-xmobar:
 install-gtk:
 	rm -rf ~/.gtkrc-2.0
 	ln -s `pwd`/gtk/gtkrc-2.0 ~/.gtkrc-2.0
+
+install-git:
+	rm -rf ~/.gitconfig ~/.gitignore
+	ln -s `pwd`/git/gitconfig ~/.gitconfig
+	ln -s `pwd`/git/gitignore ~/.gitignore
