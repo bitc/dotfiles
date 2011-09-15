@@ -1,0 +1,4 @@
+style "dark-vim" {
+  bg[NORMAL] = "#000000"
+}
+widget "vim-main-window.*GtkForm" style "dark-vim"

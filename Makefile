@@ -1,4 +1,4 @@
-install: install-bash install-vim install-xmonad install-xmobar
+install: install-bash install-vim install-xmonad install-xmobar install-gtk
 
 install-bash:
 	rm -f ~/.bashrc ~/.bash_aliases
@@ -19,3 +19,6 @@ install-xmobar:
 	rm -rf ~/.xmobarrc
 	ln -s `pwd`/xmobar/xmobarrc ~/.xmobarrc
 
+install-gtk:
+	rm -rf ~/.gtkrc-2.0
+	ln -s `pwd`/gtk/gtkrc-2.0 ~/.gtkrc-2.0
