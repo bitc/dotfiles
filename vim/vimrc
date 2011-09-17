@@ -78,6 +78,10 @@ set guiheadroom=0
 " Disable Toolbar
 set guioptions-=T
 
+" Disable all Scrollbars
+set guioptions-=L
+set guioptions-=r
+
 " Python
 au FileType python setl et ts=4 sw=4 sts=4
 set wildignore+=*.pyc
