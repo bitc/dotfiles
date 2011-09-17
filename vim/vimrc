@@ -53,6 +53,8 @@ set laststatus=2
 " Automatically save before commands like :next and :make
 set autowrite
 
+" When I want to see if there are any tab characters I can :set list
+set listchars=tab:>-
 
 " Automatically open, but do not go to (if there are errors) the quickfix /
 " location list window, or close it when is has become empty.
