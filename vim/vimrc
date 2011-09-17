@@ -35,6 +35,11 @@ set wildmode=longest:list
 " full name without wild completion
 set wildignore+=*~
 
+" Don't show a message on the last line when in insert or replace mode.  It's
+" sometimes useful to go into insert mode without having an existing message
+" that is there get cleared.
+set noshowmode
+
 " Show (partial) command in status line.
 set showcmd
 
