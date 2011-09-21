@@ -78,6 +78,9 @@ autocmd QuickFixCmdPost    l* nested lwindow
 " Key binding for NERDTree open/close
 nnoremap <silent> <F8> :NERDTreeToggle<CR>
 
+" Key binding for Tagbar open/close
+nnoremap <silent> <F9> :TagbarToggle<CR>
+
 " Allow gui to be full height of screen. This also prevents the gui from
 " acting buggy and not sizing itself correctly when using tiling window
 " managers such as xmonad.
