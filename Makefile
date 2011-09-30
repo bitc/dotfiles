@@ -7,6 +7,7 @@ all:
 TARGETS = \
 	install-bash \
 	install-vim \
+	install-x11 \
 	install-xmonad \
 	install-xmobar \
 	install-gtk \
@@ -23,6 +24,10 @@ install-vim:
 	rm -rf ~/.vim ~/.vimrc
 	ln -s `pwd`/vim ~/.vim
 	ln -s ~/.vim/vimrc ~/.vimrc
+
+install-x11:
+	rm -rf ~/.Xresources
+	ln -s `pwd`/x11/Xresources ~/.Xresources
 
 install-xmonad:
 	rm -rf ~/.xmonad

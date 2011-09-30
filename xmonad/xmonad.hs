@@ -15,7 +15,7 @@ main = do
                         , ppTitle = xmobarColor "#ff8800" "" . shorten 60
                         }
         , modMask = mod4Mask     -- Rebind Mod to the Windows key
-        , terminal = "urxvt -sb -rv"
+        , terminal = "urxvt"
         , normalBorderColor = "#444444"
         , focusedBorderColor = "#ff8800"
         , borderWidth = 2
