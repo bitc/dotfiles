@@ -25,3 +25,6 @@
 [submodule "vim/bundle/moria"]
 	path = vim/bundle/moria
 	url = git://github.com/levicook/vim-moria.git
+[submodule "vim/bundle/tabular"]
+	path = vim/bundle/tabular
+	url = git://github.com/godlygeek/tabular.git
