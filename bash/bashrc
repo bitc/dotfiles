@@ -28,6 +28,9 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+# Use a vi-style command line editing interface
+set -o vi
+
 export EDITOR=vim
 
 # Set the prompt
