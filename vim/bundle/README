@@ -4,6 +4,7 @@ bad-whitespace - Highlights whitespace at the end of lines, only in modifiable b
 fugitive - fugitive.vim: a Git wrapper so awesome, it should be illegal
 moria - moria vim colorscheme (forked to play well with pathogen)
 nerdtree - hax0r vim script to give you a tree explorer
+puppet - Puppet niceties for your Vim setup
 pyflakes - on the fly Python checking in Vim with PyFlakes
 tabular - Vim script for text filtering and alignment
 tagbar - Vim plugin that displays tags in a window, ordered by class etc.
