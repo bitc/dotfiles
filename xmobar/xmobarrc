@@ -7,7 +7,7 @@ Config { font = "-*-Fixed-Bold-R-Normal-*-13-*-*-*-*-*-*-*"
                     , Run Memory ["-t","Mem: <usedratio>%"] 10
                     , Run Swap [] 10
                     , Run Network "eth0" [] 10
-                    , Run Date "%a %b %_d %l:%M" "date" 10
+                    , Run Date "%a %b %_d %k:%M" "date" 10
                     , Run StdinReader
                     ]
        , sepChar = "%"
