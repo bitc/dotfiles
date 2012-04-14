@@ -86,6 +86,10 @@ nnoremap <silent> <F9> :TagbarToggle<CR>
 " Key binding for make
 nnoremap <silent> <F6> :make<CR>
 
+let g:syntastic_mode_map =
+      \ { 'mode': 'active',
+      \   'passive_filetypes': ['haskell'] }
+
 " Allow gui to be full height of screen. This also prevents the gui from
 " acting buggy and not sizing itself correctly when using tiling window
 " managers such as xmonad.
