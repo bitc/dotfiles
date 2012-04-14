@@ -72,6 +72,8 @@ set listchars=tab:>-
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
 
+let mapleader=","
+
 " Mapping for running a silent make
 :map <Leader>j :silent make<CR>
 
