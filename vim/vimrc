@@ -63,6 +63,9 @@ set autowrite
 " When I want to see if there are any tab characters I can :setl list
 set listchars=tab:>-
 
+" Jump to the last position when reopening a file
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+
 " Automatically open, but do not go to (if there are errors) the quickfix /
 " location list window, or close it when is has become empty.
 "
