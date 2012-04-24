@@ -14,6 +14,8 @@ set background=dark
 
 let moria_style='black'
 colorscheme moria
+" The moria colorscheme has a suboptimal color for DiffText, improve it:
+hi DiffText guibg=#8b008b
 
 " Uncomment the following to have Vim load indentation rules and plugins
 " according to the detected filetype.
