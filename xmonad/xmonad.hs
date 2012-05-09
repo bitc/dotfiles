@@ -6,6 +6,7 @@ import XMonad.Util.EZConfig(additionalKeys)
 import System.IO
 
 main = do
+    spawn "xsetroot -solid grey12"
     xmproc <- spawnPipe "xmobar"
     xmonad $ defaultConfig
         { manageHook = manageDocks <+> manageHook defaultConfig
