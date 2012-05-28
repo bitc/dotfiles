@@ -103,6 +103,11 @@ let g:syntastic_mode_map =
       \ { 'mode': 'active',
       \   'passive_filetypes': ['haskell'] }
 
+" Command-T configuration:
+let g:CommandTMaxHeight=16
+let g:CommandTMinHeight=9999
+nnoremap <Leader>T :CommandTFlush<CR>
+
 " Allow gui to be full height of screen. This also prevents the gui from
 " acting buggy and not sizing itself correctly when using tiling window
 " managers such as xmonad.
