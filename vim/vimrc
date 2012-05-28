@@ -14,8 +14,19 @@ set background=dark
 
 let moria_style='black'
 colorscheme moria
-" The moria colorscheme has a suboptimal color for DiffText, improve it:
+
+" Tweaks for the moria colorscheme:
+" ---------------------------------
+"
+" A crucial fix for stronger emphasis of the changes in a diff of similar lines
 hi DiffText guibg=#8b008b
+
+" A crucial fix for making the SignColumn visible (used by syntastic plugin)
+hi SignColumn guibg=#25365a
+
+" Adjust the listchars color to be darker and more subtle
+hi SpecialKey guifg=#443311
+
 
 " Uncomment the following to have Vim load indentation rules and plugins
 " according to the detected filetype.
