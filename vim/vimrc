@@ -139,6 +139,9 @@ set wildignore+=*.o
 set wildignore+=*.hi
 set wildignore+=*.chi
 
+" make
+au FileType make setl list
+
 " HTML Django
 au FileType htmldjango setl et ts=2 sw=2 sts=2
 
