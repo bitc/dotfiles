@@ -144,3 +144,6 @@ au FileType htmldjango setl et ts=2 sw=2 sts=2
 
 " handlebars
 au FileType handlebars setl et ts=2 sw=2 sts=2
+
+" less
+au FileType less setl et ts=2 sw=2 sts=2
