@@ -139,5 +139,8 @@ set wildignore+=*.o
 set wildignore+=*.hi
 set wildignore+=*.chi
 
+" HTML Django
+au FileType htmldjango setl et ts=2 sw=2 sts=2
+
 " handlebars
 au FileType handlebars setl et ts=2 sw=2 sts=2
