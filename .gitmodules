@@ -37,12 +37,6 @@
 [submodule "vim/bundle/syntastic"]
 	path = vim/bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
-[submodule "vim/bundle/ghcmod"]
-	path = vim/bundle/ghcmod
-	url = git://github.com/eagletmt/ghcmod-vim.git
-[submodule "vim/bundle/vimproc"]
-	path = vim/bundle/vimproc
-	url = git://github.com/Shougo/vimproc.git
 [submodule "vim/bundle/coffee-script"]
 	path = vim/bundle/coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
