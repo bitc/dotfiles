@@ -46,3 +46,6 @@
 [submodule "vim/bundle/handlebars"]
 	path = vim/bundle/handlebars
 	url = git://github.com/nono/vim-handlebars.git
+[submodule "vim/bundle/hdevtools"]
+	path = vim/bundle/hdevtools
+	url = git://github.com/bitc/vim-hdevtools.git

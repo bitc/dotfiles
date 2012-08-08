@@ -4,6 +4,7 @@ bad-whitespace - Highlights whitespace at the end of lines, only in modifiable b
 command-t - Command-T plug-in for Vim
 fugitive - fugitive.vim: a Git wrapper so awesome, it should be illegal
 ghcmod - Happy Haskell programming on Vim, powered by ghc-mod
+hdevtools - Vim plugin for Haskell development
 markdown - Vim Markdown runtime files
 moria - moria vim colorscheme (forked to play well with pathogen)
 nerdtree - hax0r vim script to give you a tree explorer
