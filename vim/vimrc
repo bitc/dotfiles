@@ -105,9 +105,10 @@ nnoremap <silent> <F8> :NERDTreeToggle<CR>
 " Key binding for Tagbar open/close
 nnoremap <silent> <F9> :TagbarToggle<CR>
 
-" Key binding for ghcmod
-au FileType haskell nnoremap <buffer> <F1> :GhcModType<CR>
-au FileType haskell nnoremap <buffer> <F2> :GhcModTypeClear<CR>
+" Key bindings for hdevtools
+au FileType haskell nnoremap <buffer> <F1> :HdevtoolsType<CR>
+au FileType haskell nnoremap <buffer> <silent> <F2> :HdevtoolsClear<CR>
+au FileType haskell nnoremap <buffer> <silent> <F3> :HdevtoolsInfo<CR>
 
 " Key binding for make
 nnoremap <silent> <F6> :make<CR>
