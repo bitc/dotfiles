@@ -79,21 +79,12 @@ set listchars=tab:>-
 " Jump to the last position when reopening a file
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
-" Automatically open, but do not go to (if there are errors) the quickfix /
-" location list window, or close it when is has become empty.
-"
-" Note: Must allow nesting of autocmds to enable any customizations for
-" quickfix buffers.
-" Note: Normally, :cwindow jumps to the quickfix window if the command opens it
-" (but not if it's already open). However, as part of the autocmd, this doesn't
-" seem to happen.
-autocmd QuickFixCmdPost [^l]* nested cwindow
-autocmd QuickFixCmdPost    l* nested lwindow
+command -nargs=* Make make <args> | cwindow
 
 let mapleader=","
 
 " Mapping for running a silent make
-:map <Leader>j :silent make<CR>
+:map <Leader>j :silent Make<CR>
 
 " Key bindings for fugitive
 nnoremap <Leader>gs :Gstatus<CR>
@@ -111,7 +102,7 @@ au FileType haskell nnoremap <buffer> <silent> <F2> :HdevtoolsClear<CR>
 au FileType haskell nnoremap <buffer> <silent> <F3> :HdevtoolsInfo<CR>
 
 " Key binding for make
-nnoremap <silent> <F6> :make<CR>
+nnoremap <silent> <F6> :Make<CR>
 
 let g:syntastic_mode_map =
       \ { 'mode': 'active',
