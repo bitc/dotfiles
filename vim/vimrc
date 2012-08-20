@@ -104,10 +104,6 @@ au FileType haskell nnoremap <buffer> <silent> <F3> :HdevtoolsInfo<CR>
 " Key binding for make
 nnoremap <silent> <F6> :Make<CR>
 
-let g:syntastic_mode_map =
-      \ { 'mode': 'active',
-      \   'passive_filetypes': ['haskell'] }
-
 " Command-T configuration:
 let g:CommandTMaxHeight=16
 let g:CommandTMinHeight=9999
