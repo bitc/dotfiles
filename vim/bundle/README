@@ -1,6 +1,7 @@
 ack - Vim plugin for the Perl module / CLI script 'ack'
 actionscript - Syntax file for ActionScript
 bad-whitespace - Highlights whitespace at the end of lines, only in modifiable buffers
+better-make - Provides the :Make command which is better than :make
 command-t - Command-T plug-in for Vim
 fugitive - fugitive.vim: a Git wrapper so awesome, it should be illegal
 handlebars - Vim plugin for Handlebars

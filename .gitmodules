@@ -49,3 +49,6 @@
 [submodule "vim/bundle/hdevtools"]
 	path = vim/bundle/hdevtools
 	url = git://github.com/bitc/vim-hdevtools.git
+[submodule "vim/bundle/better-make"]
+	path = vim/bundle/better-make
+	url = git://github.com/bitc/vim-better-make.git

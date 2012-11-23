@@ -79,8 +79,6 @@ set listchars=tab:>-
 " Jump to the last position when reopening a file
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
-command -nargs=* Make make <args> | cwindow
-
 let mapleader=","
 
 " Mapping for running a silent make
