@@ -117,6 +117,8 @@ set guioptions-=T
 set guioptions-=L
 set guioptions-=r
 
+let &guifont="Terminus 9"
+
 " Python
 au FileType python setl et ts=4 sw=4 sts=4
 set wildignore+=*.pyc
