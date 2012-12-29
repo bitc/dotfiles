@@ -157,5 +157,8 @@ au FileType handlebars setl et ts=2 sw=2 sts=2
 " less
 au FileType less setl et ts=2 sw=2 sts=2
 
+" scss
+au FileType scss setl et ts=2 sw=2 sts=2
+
 " coffee
 au FileType coffee setl et ts=2 sw=2 sts=2
