@@ -94,11 +94,6 @@ nnoremap <silent> <F8> :NERDTreeToggle<CR>
 " Key binding for Tagbar open/close
 nnoremap <silent> <F9> :TagbarToggle<CR>
 
-" Key bindings for hdevtools
-au FileType haskell nnoremap <buffer> <F1> :HdevtoolsType<CR>
-au FileType haskell nnoremap <buffer> <silent> <F2> :HdevtoolsClear<CR>
-au FileType haskell nnoremap <buffer> <silent> <F3> :HdevtoolsInfo<CR>
-
 " Key binding for make
 nnoremap <silent> <F6> :Make<CR>
 
@@ -145,6 +140,10 @@ au Bufread,BufNewFile *.hsc set filetype=haskell
 set wildignore+=*.o
 set wildignore+=*.hi
 set wildignore+=*.chi
+" Key bindings for hdevtools
+au FileType haskell nnoremap <buffer> <silent> <F2> :HdevtoolsInfo<CR>
+au FileType haskell nnoremap <buffer> <F3> :HdevtoolsType<CR>
+au FileType haskell nnoremap <buffer> <silent> <F4> :HdevtoolsClear<CR>
 
 " make
 au FileType make setl list
