@@ -16,4 +16,5 @@ puppet - Puppet niceties for your Vim setup
 syntastic - Syntax checking hacks for vim
 tabular - Vim script for text filtering and alignment
 tagbar - Vim plugin that displays tags in a window, ordered by class etc.
+typescript-vim - Typescript syntax files for Vim
 unimpaired - unimpaired.vim: pairs of handy bracket mappings
