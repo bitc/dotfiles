@@ -4,3 +4,8 @@ if command -v ack-grep &>/dev/null; then
     alias ack=ack-grep
 fi
 
+alias gvimv='\gvim `if [ -f .vimrc ]; then echo -S .vimrc; fi`'
+
+if command -v instantrun &>/dev/null; then
+    alias gvim='instantrun gvim'
+fi
