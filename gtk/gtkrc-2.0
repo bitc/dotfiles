@@ -3,5 +3,8 @@
 # is usually an ugly grey. Setting it to black looks much better.
 style "dark-vim" {
   bg[NORMAL] = "#000000"
+  font_name = "Terminus 9"
 }
 widget "vim-main-window.*GtkForm" style "dark-vim"
+
+gtk-font-name = "Terminus 9"
