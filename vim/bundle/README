@@ -11,7 +11,6 @@ less - vim syntax for LESS (dynamic CSS)
 markdown - Vim Markdown runtime files
 moria - moria vim colorscheme (forked to play well with pathogen)
 nerdtree - hax0r vim script to give you a tree explorer
-nginx-syntax - nginx vim syntax
 puppet - Puppet niceties for your Vim setup
 syntastic - Syntax checking hacks for vim
 tabular - Vim script for text filtering and alignment

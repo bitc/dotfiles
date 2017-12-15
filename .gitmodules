@@ -52,9 +52,6 @@
 [submodule "vim/bundle/better-make"]
 	path = vim/bundle/better-make
 	url = git://github.com/bitc/vim-better-make.git
-[submodule "vim/bundle/nginx-syntax"]
-	path = vim/bundle/nginx-syntax
-	url = git://github.com/evanmiller/nginx-vim-syntax.git
 [submodule "vim/bundle/typescript-vim"]
 	path = vim/bundle/typescript-vim
 	url = git@github.com:leafgarland/typescript-vim.git
