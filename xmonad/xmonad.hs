@@ -14,7 +14,7 @@ main = do
         , layoutHook = avoidStruts  $  layoutHook defaultConfig
         , logHook = dynamicLogWithPP $ xmobarPP
                         { ppOutput = hPutStrLn xmproc
-                        , ppTitle = xmobarColor "#ff8800" "" . shorten 60
+                        , ppTitle = xmobarColor "#ff8800" "" . shorten 160
                         }
         , modMask = mod4Mask     -- Rebind Mod to the Windows key
         , terminal = "urxvt"
